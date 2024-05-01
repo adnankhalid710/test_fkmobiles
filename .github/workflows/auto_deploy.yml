@@ -45,4 +45,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deploying using surge
-      run: surge ./build https://fkmobiles.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge https://fkmobiles.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
